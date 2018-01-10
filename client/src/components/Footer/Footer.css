@@ -1,0 +1,149 @@
+.footer-btn{
+    color: rgb(0, 0, 0) !important;
+    font-weight: bold;
+    background: #acacac; /* Old Browsers */
+    background: -webkit-linear-gradient(top,#acacac,#696969); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,#acacac,#696969); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,#acacac,#696969); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, #acacac, #696969); /*Standard*/
+    opacity: 1 !important;
+    border:none !important;
+    border-radius: 4px;
+}
+
+.footer-btn:hover{
+    color: rgb(0, 0, 0) !important;
+    font-weight: bold;
+    background: #f0f0f0; /* Old Browsers */
+    background: -webkit-linear-gradient(top,#f0f0f0,#aaaaaa); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,#f0f0f0,#aaaaaa); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,#f0f0f0,#aaaaaa); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, #f0f0f0, #aaaaaa); /*Standard*/
+    opacity: 1 !important;
+    border:none !important;
+    border-radius: 4px;
+}
+
+.footer{
+    margin-top: 75px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.Contact{
+    font-size: 18pt;
+    border-bottom: 2px solid #FFF;
+    margin: 15px;
+}
+.form-control{
+    margin: 5px;
+}
+
+.footer-info{
+    color: #9c9c9c;
+    margin: 0 0 0 0;
+    padding: 0 0 30px 0;
+}
+
+.footer-info-text{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 10pt;
+}
+
+.footerTop {
+    background-color: #000;
+    width: 100%;
+    padding: 50px 0 50px 0;
+}
+
+#regEmailLabel{
+    margin: 0 15px 0 0;
+}
+
+.soc-media-links{
+    padding: 20px 0 10px 0;
+    margin: -5px 0 15px 0 !important;
+}
+
+.soc-media-icon{
+    width: 75px;
+    padding: 5px;
+    margin: 0 5px 0 5px;
+}
+
+.soc-media-title{
+    color: rgb(184, 184, 184);
+    margin:15px 0 10px 0;
+    padding: 0 0 5px 0;
+    border-bottom: 2px solid rgb(112, 112, 112);
+    width: 50%;
+    
+}
+
+.follow-text{
+    margin-top: -50px !important;
+}
+
+.soc-media-div{
+    height: 150px;
+}
+
+.footerBot{
+    font-size: 10pt;
+    background: #5e5e5e; /* Old Browsers */
+    border-top: 4px solid #000;
+    background: -webkit-linear-gradient(top,#5e5e5e,#494949); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,#5e5e5e,#494949); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,#5e5e5e,#494949); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, #5e5e5e, #494949); /*Standard*/
+    padding: 0 0 0 0px;
+    margin: 0 0 0 0;
+    width: 100%;
+}
+
+.footer-item{
+    text-align: center !important;
+}
+
+.active{
+    color: #FFF !important;
+}
+
+.footer-link{
+    text-align: center !important;
+}
+
+.footer-nav{
+    text-align: center !important;
+}
+
+@media screen and (max-width: 767px)  {
+
+    .footer {
+        margin-top: 0px !important;
+    }
+    .soc-media-links {
+        padding: 0px;
+        margin: 5px 0 5px 0 !important;
+    }
+
+    .soc-media-icon{
+        width: 50px;
+        margin: 10px 0px 0px 0px;
+    }
+    .follow-text{
+        display: none;
+    }
+
+    .footerTop {
+        background-color: #000;
+        width: 100%;
+        padding: 20px 0 20px 0;
+    }
+
+    .footer-info{
+        color: #9c9c9c;
+        margin: -80px 0 0 0;
+        padding: 0 0 30px 0;
+    }   
+}

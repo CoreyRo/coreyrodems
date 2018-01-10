@@ -1,0 +1,96 @@
+.card-text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card{
+    margin: 0px 0px 50px 0;
+}
+
+.soc-icon{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 0 5px 0 5px;
+}
+
+.follow-me{
+    margin: -25px 0 0px 20px;
+    padding: 0px 0 0 0 !important;
+    z-index: 2;
+}
+
+.gallery-h1{
+    border-bottom: 2px solid #000;
+    font-family: 'Prompt', sans-serif;
+}
+
+.soc-icon-header{
+    width: 80px;
+    height: 80px;
+    margin: 0 25px 10px 0;
+}
+
+.gallery-div{
+    background-color: rgb(238, 238, 238);
+    padding: 15px 5px 15px 5px !important;
+    margin: 0 -15px 0 -15px !important;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 767px)  {
+    .gallery-div-sm{
+        position: relative !important;
+        /* overflow: scroll;
+        height: 20rem;     */
+        padding-top: 5px !important;
+        margin-top: 0px;    
+    }
+    .soc-icon, .card-text, .card-title{
+        display: none !important;
+    }
+
+    .card-body{
+        padding: 0px !important;
+        margin-bottom: 0 !important;
+    } 
+
+    card{
+        padding: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .pic-div{
+        margin-bottom: -30px !important;
+    }
+
+    .follow-me{
+        margin: 0px 0px 0 0px;
+        padding: 0 0 0 0;
+        font-size: 14pt !important;
+    }
+
+    .follow-me-text{
+        margin: 0px 0px 0 15px;
+        font-size: 14pt !important;
+    }
+
+    .gallery-h1{
+        border-bottom: 2px solid #000;
+        font-size: 16pt;
+    }
+
+    .soc-icon-header{
+        width: 45px;
+        height: 45px;
+        margin: 0 5px 5px 0;
+    }
+
+    .soc-icon-header-G{
+        width: 45px;
+        height: 45px;
+        margin: 0 5px 5px 0;
+        box-shadow: 2px 2px 2px;
+        border-radius: 100%;
+    }
+}

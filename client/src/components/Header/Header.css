@@ -1,0 +1,57 @@
+.headerTitle{
+    color: #A7C4E5  !important;
+    text-shadow: 2px 2px 2px #000 !important;
+    font-family: 'Cabin', sans-serif !important;
+    font-size: 72pt !important;
+    position: relative;
+    font-weight: bold;
+    z-index: 10;
+  }
+
+.header-div{
+
+}
+
+.headerDesc{
+    color: #FFF;
+    text-shadow: 2px 2px 2px #000;
+    font-family: 'Kanit', sans-serif !important;
+    z-index: 5;
+}
+
+.brand-img-head{
+    position: absolute;
+    font-size: 60pt;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    top: 156px;
+    left: 0;
+    width: 100%;
+    z-index:3;
+}
+
+.brand-img-sub{
+    position: absolute;
+    font-size: 25pt;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    top: 250px;
+    left: 0;
+    width: 100%;
+    z-index:3;
+}
+
+@media screen and (max-width: 767px)  {
+    .brand-img-head{
+        font-size: 28pt;
+        top: 100px;
+        left: 0;
+    }
+
+    .brand-img-sub{
+        font-size: 16pt;
+        top: 150px;
+        left: 0;
+    }
+
+}

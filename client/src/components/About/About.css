@@ -1,0 +1,98 @@
+
+.gordon-pic{
+    box-shadow: 2px 2px 4px 1px rgb(87, 87, 87);
+    border-radius: 4px;
+}
+
+.about-pic-div-1{
+    border-bottom: 1px solid #999 !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 5px !important;
+} 
+
+.about-pic-div-2{
+    display: none !important;
+} 
+.about-h{
+    color: rgb(42, 114, 143);
+    border-bottom: 2px solid rgb(42, 114, 143) !important;
+    font-family: 'Prompt', sans-serif !important;
+}
+
+.intro-sep{
+    margin: 0px 0 75px 0;
+    width: 15%;
+    font-size: 30pt;
+    color: #777;
+}
+
+.intro{
+    font-weight: bold ;
+    margin: 50px 0 0px 0;
+}
+.intro-text{
+    margin-bottom: 5px;
+}
+
+.about-text{
+    color: #555;
+    margin-bottom: 0px !important;
+}
+
+.about-div{
+    font-family: 'Cabin', sans-serif;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 767px)  {
+    .about-text-div{
+        position: relative !important; 
+        padding-top: 0px !important;
+        margin-top: 0px;     
+    }
+
+    .about-h{
+        border-bottom: 2px solid #000;
+        font-size: 16pt;
+    }
+
+    .intro-sep{
+        margin: 0px 0 50px 0;
+        width: 50%;
+        font-size: 30pt;
+        color: #777;
+    }
+    
+    .intro{
+        font-weight: bold ;
+        margin: 50px 0 0px 0;
+    }
+
+    .intro-text{
+        margin-bottom: 5px;
+    }
+    
+    .about{
+        padding-bottom: 0px !important;
+    }
+
+    .about-text{
+        margin-bottom: 10px !important;
+        font-size: 12pt;
+    }
+
+    .about-pic-div-1{
+        border-bottom: 1px solid #999 !important;
+        padding-bottom: 0px !important;
+        margin-bottom: 5px !important;
+        display: none !important;
+    }       
+
+    .about-pic-div-2{
+        border-bottom: 1px solid #999 !important;
+        padding-bottom: 15px !important;
+        margin-bottom: 10px !important;
+        display: block !important  
+    }
+
+}
