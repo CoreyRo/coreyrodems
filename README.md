@@ -1,10 +1,10 @@
-# [GordonsBBQ.net](https://gordonsbbq.herokuapp.com/ "gordonsbbq test server")
+# [coreyrodems.com](https://coreyrodems.herokuapp.com/ "coreyrodems test server")
 
 ## Author
 Corey Rodems
 
 ## Description
-gordonsbbq.net is a personal blog and social media hub for Gordon Branchaud's BBQ projects.
+coreyrodems.com is a personal blog and social media hub for Corey Rodems' projects.
 
 
 ---
@@ -13,7 +13,7 @@ gordonsbbq.net is a personal blog and social media hub for Gordon Branchaud's BB
 
 ---
 ## Installation (Source Code)
-Source https://github.com/coreyro/gordonsbbq.git
+Source https://github.com/coreyro/coreyrodems.git
 - git clone the repo to your computer
 - Make sure you are in the right directory, then type "yarn install" to install the required node modules. 
 
@@ -48,4 +48,4 @@ Source https://github.com/coreyro/gordonsbbq.git
 
 ---
 
-[![HitCount](http://hits.dwyl.io/coreyro/gordonsbbq.svg)](http://hits.dwyl.io/coreyro/gordonsbbq)
+[![HitCount](http://hits.dwyl.io/coreyro/coreyrodems.svg)](http://hits.dwyl.io/coreyro/gordonsbbq)
