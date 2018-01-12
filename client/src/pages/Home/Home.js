@@ -16,6 +16,7 @@ class Home extends Component {
 
                 <div className='container'>
                     <div className='row container mx-auto'>
+                    
                         <div className='col-md-12'>
                             <About />
                         </div>
@@ -26,8 +27,6 @@ class Home extends Component {
                         <div className='col-md-12 '>
                             <Gallery />
                         </div>
-                    </div>
-                    <div className='seperator mx-auto'>
                     </div>
                     <div className='row container mx-auto'>
                         <div className='col-md-12 '>

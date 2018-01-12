@@ -16,7 +16,7 @@ class About extends Component {
             <div>
 
                 <div className='intro-sep mx-auto text-center'>. . .</div>
-                <div id='about' />
+                <div className='scroll-adjust' id='about' />
                 <div className='col-md-12'>
                     <h3 className='about-h'>About Corey Rodems</h3>     
                 </div>

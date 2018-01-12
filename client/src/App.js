@@ -24,7 +24,7 @@ class App extends Component {
 				<div id='home'>	
 					<Navbar />
 					<Header />
-					<div className='text-center intro mx-auto'>
+					<div className='text-center intro'>
 						<div className='row'>
 						<span className='mx-auto intro-text'>Junior Full Stack Developer with a background in management and quality control.</span> 
 						</div>
