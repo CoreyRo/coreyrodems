@@ -1,7 +1,7 @@
 .card-text{
     font-family: 'Cabin', sans-serif;
-    
 }
+
 .card{
     margin: 0px 0px 50px 0;
     box-shadow: 1px 1px 4px rgb(56, 56, 56);
@@ -65,6 +65,13 @@
         margin-top: 0px;    
     }
 
+    .card-text{
+        font-size: 10pt;
+    }
+
+    .card-title{
+        font-size: 12pt;
+    }
 
     .card-body{
         padding: 10px !important;

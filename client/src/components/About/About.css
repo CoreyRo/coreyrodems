@@ -12,6 +12,7 @@
 .about-pic-div-2{
     display: none !important;
 } 
+
 .about-h{
     color: rgb(42, 114, 143);
     margin-bottom: 25px;
@@ -19,6 +20,16 @@
     font-family: 'Prompt', sans-serif !important;
 }
 
+.about-text-div{
+    position: relative !important; 
+    padding: 15px;
+    margin-top: 0px;     
+}
+
+.about-text{
+    font-size: 12pt;
+    text-indent: 2rem;
+}
 
 .about-div{
     font-family: 'Cabin', sans-serif;
@@ -42,7 +53,8 @@
 
     .about-text{
         margin-bottom: 10px !important;
-        font-size: 12pt;
+        font-size: 10pt;
+        text-indent: 20px;
     }
 
     .about-pic-div-1{
