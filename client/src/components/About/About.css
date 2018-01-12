@@ -13,13 +13,6 @@
     display: none !important;
 } 
 
-.about-h{
-    color: rgb(42, 114, 143);
-    margin-bottom: 25px;
-    border-bottom: 2px solid rgb(42, 114, 143) !important;
-    font-family: 'Prompt', sans-serif !important;
-}
-
 .about-text-div{
     position: relative !important; 
     padding: 15px;
@@ -34,6 +27,7 @@
 .about-div{
     font-family: 'Cabin', sans-serif;
     border-radius: 2px;
+    margin-bottom: 75px;
 }
 
 @media screen and (max-width: 767px)  {
@@ -42,18 +36,18 @@
         padding-top: 0px !important;
         margin-top: 0px;     
     }
-
-    .about-h{
-        font-size: 18pt;
-    }
     
     .about{
         padding-bottom: 0px !important;
     }
 
+    .about-div{
+        margin-top: 15px;
+    }
+
     .about-text{
-        margin-bottom: 10px !important;
-        font-size: 10pt;
+        margin-bottom: 15px;
+        font-size: 12pt;
         text-indent: 20px;
     }
 

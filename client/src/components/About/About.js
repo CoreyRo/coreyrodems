@@ -13,12 +13,10 @@ class About extends Component {
     render (){
 
         return(
-            <div>
-
-                <div className='intro-sep mx-auto text-center'>. . .</div>
-                <div className='scroll-adjust' id='about' />
+            <div className='container'>
+                <div className='' id='about' />
                 <div className='col-md-12'>
-                    <h3 className='about-h'>About Corey Rodems</h3>     
+                    <h3 className='my-h'>About Corey Rodems</h3>     
                 </div>
                 <div className='row about-text-div'>
                     <div className='col-md-12'>

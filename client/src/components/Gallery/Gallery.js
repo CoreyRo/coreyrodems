@@ -4,12 +4,11 @@ import './Gallery.css'
 const Gallery = () => {
 
     return(
-        <div className='scroll-adjust' id='gallery'>
-            <div className='row mx-auto'>
+        <div className='container mx-auto' id='gallery'>
+            <div className='' id='about' />
                 <div className='col-md-12'>
-                        <h3 className='d-inline-block gallery-h1'>A few of my projects</h3>
+                    <h3 className='my-h'>My Projects</h3>     
                 </div>
-            </div>
             <div className='row mx-auto gallery-div'>
                 <div className='col-md-12 '>
 

@@ -1,5 +1,5 @@
 .intro-sep{
-  margin: 0px 0 75px 0;
+  margin: 0px 0 0px 0;
   width: 50%;
   font-size: 30pt;
   color: #777;
@@ -29,6 +29,14 @@
   color: rgb(118, 193, 255);
 }
 
+.my-h{
+  color: rgb(42, 114, 143);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid rgb(42, 114, 143) !important;
+  font-family: 'Prompt', sans-serif !important;
+}
+
 .container-fluid {
   width: 100%;
   padding-right: 10%;
@@ -50,12 +58,17 @@ label {
 
 @media screen and (max-width: 767px)  {
 
+  .my-h{
+    font-size: 18pt;
+  }
+
   .container-fluid {
     width: 100%;
     padding-right: 2%;
     padding-left: 2%;
     margin-right: auto;
     margin-left: auto;
+    overflow-x: hidden !important;
   }
 
   .container{
@@ -64,19 +77,20 @@ label {
     padding-left: 2%;
     margin-right: auto;
     margin-left: auto;
+    overflow-x: hidden !important;
   }
 
   .intro{
     font-weight: bold ;
-    padding: 30px 10% 20px 10% !important;
+    padding: 50px 10% 60px 10% !important;
     width: 100% !important;
   }
 
   .intro-text{
-    font-size: 12pt;
+    font-size: 14pt;
     color: #fff;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 2px rgb(56, 56, 56);
+    text-shadow: 2px 2px 2px rgb(24, 24, 24);
   }
 
 }
@@ -100,5 +114,4 @@ label {
     margin-right: 0 !important;
     margin-left: 0 !important;
   }
-
 }

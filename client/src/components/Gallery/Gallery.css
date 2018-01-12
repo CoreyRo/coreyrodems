@@ -39,6 +39,7 @@
 
 .gallery-h1{
     color: rgb(42, 114, 143);
+    margin-top: 25px;
     margin-bottom: 25px;
     border-bottom: 2px solid rgb(42, 114, 143) !important;
     font-family: 'Prompt', sans-serif !important;
@@ -52,7 +53,7 @@
 
 .gallery-div{
     padding: 0 15px 10px !important;
-    margin: 0 -15px 0 -15px !important;
+    margin: 0 -15px 75px -15px !important;
     border-radius: 15px;
 }
 

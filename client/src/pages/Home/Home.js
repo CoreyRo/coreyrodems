@@ -12,29 +12,23 @@ class Home extends Component {
 
     render(){
         return(
-            
-
-                <div className='container'>
-                    <div className='row container mx-auto'>
-                    
-                        <div className='col-md-12'>
-                            <About />
-                        </div>
+            <div>       
+                <div className='text-center intro'>
+                    <div className='row'>
+                    <span className='mx-auto intro-text'>Junior Full Stack Developer with a background in management and quality control.</span> 
                     </div>
-                    <div className='seperator mx-auto'>
+                    <div className='row'>
+                    <span className='mx-auto intro-text'>Recently completed the UC Irvine Fullstack Development Program.</span>
                     </div>
-                    <div className='row container mx-auto'>
-                        <div className='col-md-12 '>
-                            <Gallery />
-                        </div>
+                    <div className='row'>
+                    <span className='mx-auto intro-text'>Competent in HTML5, ES6, JQuery, Node, Express, MongoDB, MySQL and other full stack frameworks and languages.</span>
                     </div>
-                    <div className='row container mx-auto'>
-                        <div className='col-md-12 '>
-                            <Contact />
-                        </div>
+                    <div className='row'>
+                    <span className='mx-auto intro-text'>For business inquieries contact me at <a href='mailto:coreyrodems@gmail.com'>coreyrodems@gmail.com</a></span>
                     </div>
-                </div>
-
+                </div> 	
+                
+            </div>
         )
     }
 }
