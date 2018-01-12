@@ -41,7 +41,7 @@ const Navbar = () => {
                         <li className="nav-item">
                         <a className="nav-link" href="#contactForm"  data-toggle="modal" data-target="#contactForm">Contact <span className="sr-only">(current)</span></a>
                         </li>
-                        <li className="nav-item dropdown">
+                        {/* <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" id='soc-menu' data-toggle="dropdown" href='/' role="button" aria-haspopup="true" aria-expanded="false">Social Media</a>
                             <div className="dropdown-menu">
                                 <a className="dropdown-item d-inlne-block" id='insta' rel="noopener noreferrer" target='_blank' href="https://www.instagram.com/gordonsbbq/">Instagram</a>
@@ -49,7 +49,7 @@ const Navbar = () => {
                                 <a className="dropdown-item" id='yt' rel="noopener noreferrer" target='_blank' href="https://www.youtube.com/user/Nhoddus/featured">YouTube</a>
                                 <a className="dropdown-item" id='tw' rel="noopener noreferrer" target='_blank' href="https://www.twitch.tv/nhoddus">Twitch</a>
                             </div>
-                        </li>                       
+                        </li>                        */}
                     </ul> 
                 </div>
             </div>
