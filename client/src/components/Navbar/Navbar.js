@@ -9,7 +9,6 @@ const Navbar = () => {
             <div className='container-fluid '>
             <a className='brand-text-link' href="#home">
                 <h3 className='brand-text'>Corey Rodems</h3>
-                <img className='img-fluid brand-image brand-pos' src={'../public/imgs/crologo2.png'} alt='cro logo'/>
             </a>
                 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" aria-haspopup="true" data-target="#navCollapse" aria-controls="navCollapse" aria-expanded="false" aria-label="Toggle navigation">

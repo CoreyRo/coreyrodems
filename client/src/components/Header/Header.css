@@ -21,10 +21,10 @@
 
 .brand-img-head{
     position: absolute;
-    font-size: 60pt;
+    font-size: 85pt;
     color: #fff;
     text-shadow: 2px 2px 2px #000;
-    top: 156px;
+    top: 175px;
     left: 0;
     width: 100%;
     z-index:3;
@@ -32,10 +32,10 @@
 
 .brand-img-sub{
     position: absolute;
-    font-size: 25pt;
+    font-size: 34pt;
     color: #fff;
     text-shadow: 2px 2px 2px #000;
-    top: 250px;
+    top: 315px;
     left: 0;
     width: 100%;
     z-index:3;
@@ -44,13 +44,13 @@
 @media screen and (max-width: 767px)  {
     .brand-img-head{
         font-size: 28pt;
-        top: 100px;
+        top: 140px;
         left: 0;
     }
 
     .brand-img-sub{
         font-size: 16pt;
-        top: 150px;
+        top: 190px;
         left: 0;
     }
 

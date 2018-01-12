@@ -24,6 +24,9 @@ class About extends Component {
                     <div className='row'>
                     <span className='mx-auto intro-text'>Competent in HTML5, ES6, JQuery, Node, Express, MongoDB, MySQL and other full stack frameworks and languages.</span>
                     </div>
+                    <div className='row'>
+                    <span className='mx-auto intro-text'>For business inquieries contact me at <a href='mailto:coreyrodems@gmail.com'>coreyrodems@gmail.com</a></span>
+                    </div>
                 </div>
                 <div className='intro-sep mx-auto text-center'>. . .</div>
                 <div className='col-md-12'>
