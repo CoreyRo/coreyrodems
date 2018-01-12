@@ -13,7 +13,7 @@ class Home extends Component {
     render(){
         return(
             
-            <div >
+
                 <div className='container'>
                     <div className='row container mx-auto'>
                         <div className='col-md-12'>
@@ -35,7 +35,7 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+
         )
     }
 }

@@ -13,22 +13,10 @@ class About extends Component {
     render (){
 
         return(
-            <div className='scroll-adjust' id='about'>
-                <div className='text-center intro mx-auto'>
-                    <div className='row'>
-                    <span className='mx-auto intro-text'>Junior Full Stack Developer with a background in management and quality control.</span> 
-                    </div>
-                    <div className='row'>
-                    <span className='mx-auto intro-text'>Recently completed the UC Irvine Fullstack Development Program.</span>
-                    </div>
-                    <div className='row'>
-                    <span className='mx-auto intro-text'>Competent in HTML5, ES6, JQuery, Node, Express, MongoDB, MySQL and other full stack frameworks and languages.</span>
-                    </div>
-                    <div className='row'>
-                    <span className='mx-auto intro-text'>For business inquieries contact me at <a href='mailto:coreyrodems@gmail.com'>coreyrodems@gmail.com</a></span>
-                    </div>
-                </div>
+            <div>
+
                 <div className='intro-sep mx-auto text-center'>. . .</div>
+                <div id='about' />
                 <div className='col-md-12'>
                     <h3 className='about-h'>About Corey Rodems</h3>     
                 </div>

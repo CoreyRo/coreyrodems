@@ -4,7 +4,7 @@ import './Gallery.css'
 const Gallery = () => {
 
     return(
-        <div className='scroll-adjust' id='gallery'>
+        <div id='gallery'>
             <div className='row mx-auto'>
                 <div className='col-md-12'>
                         <h3 className='d-inline-block gallery-h1'>A few of my projects</h3>
