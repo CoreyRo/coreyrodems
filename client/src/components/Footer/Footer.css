@@ -61,14 +61,14 @@
 }
 
 .soc-media-links{
-    padding: 20px 0 10px 0;
+    padding: 75px 0 10px 0;
     margin: -5px 0 15px 0 !important;
 }
 
 .soc-media-icon{
     width: 75px;
     padding: 5px;
-    margin: 0 5px 0 5px;
+    margin: 0px 0px 0px 0px;
 }
 
 .soc-media-title{
@@ -90,12 +90,8 @@
 
 .footerBot{
     font-size: 10pt;
-    background: #5e5e5e; /* Old Browsers */
-    border-top: 4px solid #000;
-    background: -webkit-linear-gradient(top,#5e5e5e,#494949); /*Safari 5.1-6*/
-    background: -o-linear-gradient(top,#5e5e5e,#494949); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(top,#5e5e5e,#494949); /*Fx 3.6-15*/
-    background: linear-gradient(to bottom, #5e5e5e, #494949); /*Standard*/
+    background: #000000; /* Old Browsers */
+
     padding: 0 0 0 0px;
     margin: 0 0 0 0;
     width: 100%;

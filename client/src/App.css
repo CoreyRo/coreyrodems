@@ -7,34 +7,60 @@
 
 .intro{
   font-weight: bold ;
-  padding: 75px 0 75px 0 !important;
-  width: 100% !important;
-  border-bottom: 2px solid rgb(99, 99, 99);
-  background: #9c9c9c; /* Old Browsers */
-  background: -webkit-linear-gradient(bottom,#9c9c9c,#6b6b6b); /*Safari 5.1-6*/
-  background: -o-linear-gradient(bottom,#9c9c9c,#6b6b6b); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(bottom,#9c9c9c,#6b6b6b); /*Fx 3.6-15*/
-  background: linear-gradient(to top, #9c9c9c, #6b6b6b); /*Standard*/
+  padding: 125px 0 125px 0 !important;
+  width: 100% !important;  
   overflow-x: hidden !important;
 }
 
+.hobby{
+  background: #007bff;
+  font-weight: bold ;
+  padding: 125px 0 125px 0 !important;
+  width: 100% !important;  
+  overflow-x: hidden !important;
+}
+
+.intro-text-1{
+  color: rgb(46, 46, 46);
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 1px rgb(184, 184, 184);
+  font-size: 20pt;
+}
+
 .intro-text{
-  color: #fff;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 2px rgb(56, 56, 56);
+  color: rgb(46, 46, 46);
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 1px rgb(184, 184, 184);
   font-size: 14pt;
 }
 
+
 .intro-text> a{
-  color: rgb(118, 193, 255);
+  color: #007bff;
+}
+
+.intro-text> a:hover{
+  color: #00aeff;
 }
 
 .my-h{
-  color: rgb(42, 114, 143);
+  color: #009fff;
   margin-top: 25px;
-  margin-bottom: 25px;
-  border-bottom: 2px solid rgb(42, 114, 143) !important;
+  margin-bottom: 0px !important; 
+  padding-left: 15px;
   font-family: 'Prompt', sans-serif !important;
+}
+.h-container{
+  border-left: 8px solid #009fff !important;
+  padding-left: 0 !important;
+
+}
+.my-h-sm{
+  font-size: 16pt;
+  color: rgb(48, 48, 48);
+  margin-bottom: 25px;
+  padding-left: 15px;
+  font-family: 'Arial', sans-serif;
 }
 
 .container-fluid {
@@ -88,9 +114,12 @@ label {
 
   .intro-text{
     font-size: 14pt;
-    color: #fff;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 2px rgb(24, 24, 24);
+  }
+  .intro-text-1{
+    color: rgb(46, 46, 46);
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 1px rgb(184, 184, 184);
+    font-size: 18pt;
   }
 
 }

@@ -6,8 +6,9 @@ const Gallery = () => {
     return(
         <div className='container mx-auto' id='gallery'>
             <div className='' id='about' />
-                <div className='col-md-12'>
-                    <h3 className='my-h'>My Projects</h3>     
+                <div className='h-container col-md-12'>
+                    <h2 className='my-h'>My Portfolio</h2>
+                    <h4 className='my-h-sm'>A few of my projects</h4>     
                 </div>
             <div className='row mx-auto gallery-div'>
                 <div className='col-md-12 '>
@@ -49,7 +50,7 @@ const Gallery = () => {
                                 <div className="card-body">
                                     <span>
                                         <a href="http://projectlfp.herokuapp.com">
-                                            <h5 className="card-title d-inline-block">projectlfp.herokuapp.com</h5>
+                                            <h5 className="card-title d-inline-block">Project: LFP</h5>
                                         </a>
                                     </span>
                                     <p className="card-text">Looking for Project (tentative) is a social platform where developers of all skill levels can get together to collaborate on projects.</p>  
@@ -79,7 +80,7 @@ const Gallery = () => {
                                 <div className="card-body">
                                     <span>
                                         <a href="https://dungeon-crusade.herokuapp.com/">
-                                            <h5 className="card-title d-inline-block">projectlfp.herokuapp.com</h5>
+                                            <h5 className="card-title d-inline-block">Dungeon Crusade</h5>
                                         </a>
                                     </span>
                                     <p className="card-text">Dungeon Crusade is a single player turn-based browser game. The player encounters randomly generated and scripted enemies. Upgrade your character and play until defeated.</p>  

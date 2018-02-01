@@ -5,7 +5,7 @@
 .card{
     margin: 0px 0px 50px 0;
     box-shadow: 1px 1px 4px rgb(56, 56, 56);
-    background-color: #dcf2ff;
+    background-color: #0099ff;
 }
 
 .card-body{
@@ -15,7 +15,6 @@
 }
 
 .card-img-top{
-    background-color:  #dcf2ff;
     padding: 5px;
 }
 
@@ -37,13 +36,6 @@
     z-index: 2;
 }
 
-.gallery-h1{
-    color: rgb(42, 114, 143);
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border-bottom: 2px solid rgb(42, 114, 143) !important;
-    font-family: 'Prompt', sans-serif !important;
-}
 
 .soc-icon-header{
     width: 80px;

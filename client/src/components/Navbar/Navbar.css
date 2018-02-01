@@ -2,10 +2,6 @@
 font-family: 'Prompt', sans-serif;
 font-family: 'Russo One', sans-serif; */
 
-.brand-image{
-    display: none;
-}
-
 .brand-text-link {
     color: inherit !important;
     text-decoration: none !important;
@@ -15,37 +11,44 @@ font-family: 'Russo One', sans-serif; */
     border-bottom: none !important;
 }
 
-.brand-text{
-    margin: 0 0 0 0 !important;
-    color: #FFF;
-    font-family: 'Bungee', cursive;
+.nav-brand{
+    color: #009fff;
 }
 
 .bg-dark{
 
 }
 
-.navbar{
-    padding: 0 !important;
+.soc-links{
+    color: #009fff !important;
+    margin-top: 15px;
+
+}
+.soc-links:hover{
+    color: #00ccff !important;
+}
+
+.soc-links-collapse{
+    display: none !important;
+
 }
 
 .nav-link.active, .nav-link:hover, .nav-link.show, .navbar-nav .show>.nav-link{
-    color: rgb(0, 0, 0) !important;
-    background: #ffffff; /* Old Browsers */
-    background: -webkit-linear-gradient(top,#ffffff,#adadad); /*Safari 5.1-6*/
-    background: -o-linear-gradient(top,#ffffff,#adadad); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(top,#ffffff,#adadad); /*Fx 3.6-15*/
-    background: linear-gradient(to bottom, #ffffff, #adadad); /*Standard*/
-    opacity: 1 !important;
-    border:none !important;
+    padding-bottom: 0px !important;
 }
 
-.nav-link, .navbar-nav{
+.navbar-nav{
     border-radius: 0px !important;
     font-family: 'Russo One', sans-serif;
 }
 
-.nav-link:hover, .navbar-nav{
+.nav-link{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid #FFF !important;
     border-radius: 0px !important;
 }
 
@@ -85,24 +88,54 @@ font-family: 'Russo One', sans-serif; */
     padding: 0px 0px 0px 0px;
 }
 
-.brand-pos{
-    margin: 0 0 0 0 !important;
-    position: relative !important;
-    left: 50%;
-}
-
 .sticky-top{
-    background: #009fff; /* Old Browsers */
-    background: -webkit-linear-gradient(top,#009fff,#003b55); /*Safari 5.1-6*/
-    background: -o-linear-gradient(top,#009fff,#003b55); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(top,#009fff,#003b55); /*Fx 3.6-15*/
-    background: linear-gradient(to bottom, #009fff, #003b55); /*Standard*/
+
+}
+.top-nav{
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    z-index: -1 !important;
+    background: rgb(255, 255, 255) !important;
+
 }
 
+.mid-nav{
+    z-index: 1 !important;
+    margin-top: -12px !important;
+    margin-bottom: -10px !important;
+    padding-left: 14px !important;
+    padding-bottom: 18px !important;
+    background: #FFF !important;
+}
+
+.bot-nav{
+    width: 100% !important;
+    background: #009fff !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.459);
+}
+
+
+
+.active> .nav-link{
+    border-bottom: 2px solid #FFF !important;
+    padding-bottom: 0px !important;
+}
 
 /*MEDIA QUERIES */
 
 @media screen and (max-width: 767px)  {
+
+    .soc-links-collapse{
+        display: inline-block !important;
+    }
+
+    .top-nav, .mid-nav{
+        display: none !important;
+    }
+    
 
     .nav-pill{   
         background-color: transparent;
@@ -124,16 +157,20 @@ font-family: 'Russo One', sans-serif; */
         top: 40px !important;
         width: 50%;
         z-index: 5;
-        background: #003b55; /* Old Browsers */
-        background: -webkit-linear-gradient(top,#003b55,#009fff); /*Safari 5.1-6*/
-        background: -o-linear-gradient(top,#003b55,#009fff); /*Opera 11.1-12*/
-        background: -moz-linear-gradient(top,#003b55,#009fff); /*Fx 3.6-15*/
-        background: linear-gradient(to bottom, #003b55, #009fff); /*Standard*/
+        background: #009fff; /* Old Browsers */
     }
+
+    .active> .nav-link{
+        border-bottom: none !important;
+        border-left: 5px solid #FFF !important;
+        padding-bottom: 0px !important;
+    }
+
 
     .nav-link, .nav-link.active, .nav-link:hover, .nav-link.show, .navbar-nav .show>.nav-link{
         padding: 10px !important;
         opacity: 1 !important;
+        
     }
     
     .brand-pos{

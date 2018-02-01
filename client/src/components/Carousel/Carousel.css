@@ -4,12 +4,11 @@
     bottom: 0px;
     left: 0;
     z-index: 2;
-    border-bottom: 4px solid rgb(68, 68, 68);
 }
+
 .slick-dots {
     display: none !important;
 }
-
 
 
 @media screen and (max-width: 767px)  {
@@ -22,17 +21,6 @@
         left: 0;
         z-index: 2;
         overflow: hidden;
-    }
-
-    .brand-img{
-        position: relative !important;
-        top: 40px !important;
-        height: auto !important;
-        width: auto !important;
-        padding: 25px !important;
-        height: auto;
-        margin: 0 0 0 0;
-        z-index: 10;
     }
     
     .HeadImg {

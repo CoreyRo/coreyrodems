@@ -15,8 +15,9 @@ class About extends Component {
         return(
             <div className='container'>
                 <div className='' id='about' />
-                <div className='col-md-12'>
-                    <h3 className='my-h'>About Corey Rodems</h3>     
+                <div className='h-container col-md-12'>
+                    <h2 className='my-h'>About Me</h2>
+                    <h4 className='my-h-sm'>Corey Rodems</h4>     
                 </div>
                 <div className='row about-text-div'>
                     <div className='col-md-12'>
