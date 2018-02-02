@@ -1,7 +1,9 @@
 {
-    "root": "client/public/",
+    "root": "client/build/",
     "clean_urls": false,
     "routes": {
-      "/**": "index.html"
+        "*": "index.html",
+        "/**": "index.html",
+        "/testing":"www.google.com"
     }
 }
