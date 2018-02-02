@@ -79,7 +79,7 @@ const Gallery = () => {
                                                 <h5 className="card-title d-inline-block">coreyrodems.com</h5>
                                             </a>
                                         </span>
-                                        <p className="card-text">coreyrodems.com is my personal porfolio site. It's written in react and utilizes bootstrap 4</p>  
+                                        <p className="card-text">coreyrodems.com is my personal portfolio site. It's written in React.js and utilizes bootstrap 4.</p>  
                                     </div>
                                 </div>
                             </div>
