@@ -35,6 +35,10 @@
     height: 275px;
 }
 
+.card-img-top:hover{
+    border: 6px solid #fffb00;
+    padding: 0px;
+}
 .card-title{
     font-family: 'Prompt', sans-serif !important;
     font-weight: bold;

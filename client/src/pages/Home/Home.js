@@ -36,7 +36,7 @@ class Home extends Component {
                 <div className='contactme-div'>
                     <div className='container text-center mx-auto'>
                         <h3 className='hobby-h'>For business inquiries</h3>
-                        <button className='btn btn-primary btn-lg'>Contact Corey Rodems</button>
+                        <a href="#contactForm"  data-toggle="modal" data-target="#contactForm"><button href="#contactForm" className='btn btn-primary btn-lg'>Contact Corey Rodems</button></a>
                     </div>
                 </div>
             </div>

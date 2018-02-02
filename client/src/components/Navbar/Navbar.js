@@ -35,19 +35,19 @@ const Navbar = () => {
                 
                     <ul className="navbar-nav nav-tabs list-group ml-auto" id="myNavBar">
                         <li className={window.location.pathname === '/' || window.location.pathname === '/home' ? 'active nav-item' : 'nav-item'}>
-                            <Link className="nav-link" id='homeLink' to="/">Home <span className="sr-only">(current)</span></Link>
+                            <Link className="nav-link bot-link" id='homeLink' to="/">Home <span className="sr-only">(current)</span></Link>
                         </li>
 
                         <li className={window.location.pathname === '/about' ? 'active nav-item' : 'nav-item'}>
-                            <Link className="nav-link" to="/about">About <span className="sr-only">(current)</span></Link>
+                            <Link className="nav-link bot-link" to="/about">About <span className="sr-only">(current)</span></Link>
                         </li>
 
                         <li className={window.location.pathname === '/projects' ? 'active nav-item' : 'nav-item'}>
-                            <Link className="nav-link" to="/projects">Projects <span className="sr-only">(current)</span></Link>
+                            <Link className="nav-link bot-link" to="/projects">Projects <span className="sr-only">(current)</span></Link>
                         </li>
 
                         <li className={window.location.pathname === '/contact' ? 'active nav-item mr-sm-2' : 'nav-item mr-sm-2'}>
-                            <a className="nav-link" href="#contactForm"  data-toggle="modal" data-target="#contactForm">Contact <span className="sr-only">(current)</span></a>
+                            <a className="nav-link bot-link" href="#contactForm"  data-toggle="modal" data-target="#contactForm">Contact <span className="sr-only">(current)</span></a>
                         </li>
                     </ul> 
                    

@@ -49,6 +49,7 @@ const Gallery = () => {
                             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -63,6 +64,22 @@ const Gallery = () => {
                                             </a>
                                         </span>
                                         <p className="card-text">gordonsbbq.net is a personal blog and social media hub for Gordon Branchaud's BBQ projects.</p>  
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div className="card mb-3" >
+                                    <a href="https://github.com/CoreyRo/coreyrodems">
+                                        <img className="card-img-top" src="../public/imgs/cro.png" alt="coreyrodems.com pic" />
+                                    </a>
+                                    <div className="card-body">
+                                        <span>
+                                            <a href="http://www.coreyrodems.com">
+                                                <h5 className="card-title d-inline-block">coreyrodems.com</h5>
+                                            </a>
+                                        </span>
+                                        <p className="card-text">coreyrodems.com is my personal porfolio site. It's written in react and utilizes bootstrap 4</p>  
                                     </div>
                                 </div>
                             </div>
