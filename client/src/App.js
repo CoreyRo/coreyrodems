@@ -25,15 +25,9 @@ class App extends Component {
 	}
 	
   	render() {
-		const location = history.location
 		history.listen((location, action) => {
-			console.log(
-			  `The current URL is ${location.pathname}${location.search}${location.hash}`
-			)
-			console.log('location history', history)
-			console.log(`The last navigation action was ${action}`)
-		  })
 		
+		})
 		return (
 	  		<Router history={history}>
 			  

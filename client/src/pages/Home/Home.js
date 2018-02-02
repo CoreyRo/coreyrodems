@@ -1,7 +1,4 @@
 import React, { Component } from 'react'
-import About from '../../components/About'
-import Contact from '../../components/Contact'
-import Gallery from '../../components/Gallery'
 import './Home.css'
 
 
