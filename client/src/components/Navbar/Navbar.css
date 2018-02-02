@@ -154,22 +154,27 @@ font-family: 'Russo One', sans-serif; */
     .nav-pos {
         position: absolute !important;
         left: 0px !important;
-        top: 40px !important;
-        width: 50%;
+        top: 43px !important;
+        width: 100%;
+        border-left:2px solid #FFF;
+        border-right:2px solid #FFF;
+        border-bottom:2px solid #FFF;
         z-index: 5;
         background: #009fff; /* Old Browsers */
     }
 
     .active> .nav-link{
         border-bottom: none !important;
-        border-left: 5px solid #FFF !important;
         padding-bottom: 0px !important;
+        background-color: #FFF;
+        color: #009fff !important;
     }
 
 
     .nav-link, .nav-link.active, .nav-link:hover, .nav-link.show, .navbar-nav .show>.nav-link{
         padding: 10px !important;
         opacity: 1 !important;
+
         
     }
     

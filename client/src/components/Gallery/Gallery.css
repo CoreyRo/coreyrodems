@@ -1,26 +1,44 @@
-.card-text{
-    font-family: 'Cabin', sans-serif;
-}
+
 
 .card{
-    margin: 0px 0px 50px 0;
-    box-shadow: 1px 1px 4px rgb(56, 56, 56);
+    margin: 0px 10px 0px 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.747);
+    background-color: #0099ff;
+}
+
+.carousel-indicators{
+    bottom: -30px;
+}
+.carousel-indicators li {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: .48rem;
+    border-radius: 8px;
+}
+
+.carousel-indicators .active {
     background-color: #0099ff;
 }
 
 .card-body{
     border: 2px solid rgb(221, 221, 221);
-    margin: 0 3px 3px 3px;
+    margin: 0 4px 4px 4px;
     background-color: #fff;
 }
 
+.card-text{
+    font-family: 'Cabin', sans-serif;
+    color: #333;
+}
+
 .card-img-top{
-    padding: 5px;
+    padding: 4px;
+    height: 275px;
 }
 
 .card-title{
     font-family: 'Prompt', sans-serif !important;
     font-weight: bold;
+    color: #333;
 }
 
 .soc-icon{
@@ -30,12 +48,28 @@
     margin: 0 5px 0 5px;
 }
 
+.skills-div{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.skill-span{
+    margin-bottom: 35px !important;
+}
+
+.skill-img{
+    margin-bottom: 50px;
+
+}
+.more-info{
+    margin-top: 30px;
+    padding-left: 10px;
+}
 .follow-me{
     margin: -25px 0 0px 20px;
     padding: 0px 0 0 0 !important;
     z-index: 2;
 }
-
 
 .soc-icon-header{
     width: 80px;
@@ -43,11 +77,80 @@
     margin: 0 25px 10px 0;
 }
 
+.video-div{
+    margin-bottom: 50px;
+    background-color: #0099ff !important;
+    padding-top: 10px;
+    padding-bottom: 125px;
+    width: 100%;
+}
+
+#my-vid{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.623);
+    border: 4px solid #FFF;
+    border-radius: 4px;
+}
+
 .gallery-div{
     padding: 0 15px 10px !important;
     margin: 0 -15px 75px -15px !important;
     border-radius: 15px;
 }
+
+.h-container-sm-a{
+    border-left: 8px solid #ffffff !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 40px;
+    display: block;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.397);
+  }
+  
+  .my-h-sub-a{
+    font-family: 'Prompt', sans-serif !important;
+    font-size: 24pt;
+    border-bottom: 3px  #FFF;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 0px !important; 
+    padding-left: 15px;
+    display: block;
+  }
+
+  .h-container-sm-b{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.589);
+    font-family: 'Prompt', sans-serif !important;
+    border-left: 8px solid #0099ff !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0px !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 35px;
+    display: block;
+  }
+
+  .my-h-sub-b{
+    font-family: 'Prompt', sans-serif !important;
+    font-size: 24pt;
+    color: #0099ff;
+    margin-top: 25px;
+    margin-bottom: 0px !important; 
+    padding-left: 15px;
+    display: block;
+  }
+  
+  .my-h-sub-sm{
+    font-family: 'Prompt', sans-serif !important;
+    display: block;
+    font-size: 16pt;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+    padding-left: 15px;
+    font-family: 'Arial', sans-serif;
+  }
+
 
 @media screen and (max-width: 767px)  {
     .gallery-div-sm{
@@ -66,14 +169,23 @@
         font-size: 12pt;
     }
 
+    .card-img-top{
+        padding: 4px;
+        height: 175px !important;
+    }
+
     .card-body{
         padding: 10px !important;
         margin-bottom: 0 !important;
+        height: 125px !important;
+        overflow: hidden !important;
     } 
 
     card{
         padding: 0px !important;
-        margin-bottom: 0px !important;
+        margin-bottom: 0px !important;\
+        overflow: hidden !important;
+
     }
 
     .pic-div{

@@ -14,19 +14,31 @@ class Home extends Component {
         return(
             <div>       
                 <div className='text-center intro'>
-                    <div className='row'>
-                    <span className='mx-auto intro-text-1'>Junior Full Stack Developer with a background in management and quality control.</span> 
+                    <div className='container'>
+                        <div className='row'>
+                        <span className='mx-auto intro-text-1'>Junior Full Stack Developer with a background in management and quality control.</span> 
+                        </div>
+                        <div className='row'>
+                        <span className='mx-auto intro-text-2'>Recently completed the UC Irvine Fullstack Development Program.</span>
+                        </div>
+                        <img className="img-fluid skills-img" src="../public/imgs/skillbanner.png" alt="instagram pic" />
+
                     </div>
-                    <div className='row'>
-                    <span className='mx-auto intro-text'>Recently completed the UC Irvine Fullstack Development Program.</span>
+                </div>
+                <div className='text-center wdskills-div'>
+                    <div className='container-flex'>
+                        <div className='row'>
+                        <span className='mx-auto wd-text'>Competent in HTML5, ES6, JQuery, Node, Express, MongoDB, MySQL, WordPress and other full stack frameworks and languages.</span>
+                        </div>
+                        <img className="img-fluid skills-img" src="../public/imgs/wdbanner.png" alt="instagram pic" />
                     </div>
-                    <div className='row'>
-                    <span className='mx-auto intro-text'>Competent in HTML5, ES6, JQuery, Node, Express, MongoDB, MySQL and other full stack frameworks and languages.</span>
+                </div>
+                <div className='contactme-div'>
+                    <div className='container text-center mx-auto'>
+                        <h3 className='hobby-h'>For business inquiries</h3>
+                        <button className='btn btn-primary btn-lg'>Contact Corey Rodems</button>
                     </div>
-                    <div className='row'>
-                    <span className='mx-auto intro-text'>For business inquieries contact me at <a href='mailto:coreyrodems@gmail.com'>coreyrodems@gmail.com</a></span>
-                    </div>
-                </div> 	                
+                </div>
             </div>
         )
     }
