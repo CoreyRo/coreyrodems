@@ -13,7 +13,7 @@ const Gallery = () => {
                                 <img className="img-fluid skill-img" src="../public/imgs/skillbanner.png" alt="instagram pic" />
                                 <h3>Fullstack Development</h3>
                                 <h3>Graphic Design</h3>
-                                <h3>Digital Medial Editing</h3>
+                                <h3>Digital Media Editing</h3>
                         </div>
                     </div>
                 </div>
@@ -54,12 +54,12 @@ const Gallery = () => {
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div className="card mb-3" >
-                                    <a href="https://github.com/CoreyRo/gordonsbbq" rel="noopener noreferrer" target='_blank'>
+                                    <a href="https://github.com/CoreyRo/gordonsbbq">
                                         <img className="card-img-top" src="../public/imgs/gbbq.png" alt="instagram pic" />
                                     </a>
                                     <div className="card-body">
                                         <span>
-                                            <a href="http://www.gordonsbbq.net" rel="noopener noreferrer" target='_blank'>
+                                            <a href="http://www.gordonsbbq.net">
                                                 <h5 className="card-title d-inline-block">gordonsbbq.net</h5>
                                             </a>
                                         </span>
@@ -70,12 +70,12 @@ const Gallery = () => {
 
                             <div class="carousel-item">
                                 <div className="card mb-3" >
-                                    <a href="https://github.com/CoreyRo/coreyrodems" rel="noopener noreferrer" target='_blank'>
+                                    <a href="https://github.com/CoreyRo/coreyrodems">
                                         <img className="card-img-top" src="../public/imgs/cro.png" alt="coreyrodems.com pic" />
                                     </a>
                                     <div className="card-body">
                                         <span>
-                                            <a href="http://www.coreyrodems.com" rel="noopener noreferrer" target='_blank'>
+                                            <a href="http://www.coreyrodems.com">
                                                 <h5 className="card-title d-inline-block">coreyrodems.com</h5>
                                             </a>
                                         </span>
@@ -86,7 +86,7 @@ const Gallery = () => {
 
                             <div class="carousel-item">
                                 <div className="card mb-3" >
-                                    <a href="https://github.com/CoreyRo/LIRIbot" rel="noopener noreferrer" target='_blank'>
+                                    <a href="https://github.com/CoreyRo/LIRIbot">
                                         <img className="card-img-top" src="../public/imgs/liri.png" alt="instagram pic" />
                                     </a>
                                     <div className="card-body">
@@ -98,12 +98,12 @@ const Gallery = () => {
 
                             <div class="carousel-item">
                                 <div className="card mb-3" >
-                                    <a href="https://github.com/CoreyRo/green-team-lfp" rel="noopener noreferrer" target='_blank'>
+                                    <a href="https://github.com/CoreyRo/green-team-lfp">
                                         <img className="card-img-top" src="../public/imgs/lfp.png" alt="instagram pic" />
                                     </a>
                                     <div className="card-body">
                                         <span>
-                                            <a href="http://projectlfp.herokuapp.com" rel="noopener noreferrer" target='_blank'>
+                                            <a href="http://projectlfp.herokuapp.com">
                                                 <h5 className="card-title d-inline-block">Project: LFP</h5>
                                             </a>
                                         </span>
@@ -114,7 +114,7 @@ const Gallery = () => {
 
                             <div class="carousel-item">
                                 <div className="card mb-3" >
-                                    <a href="https://github.com/CoreyRo/bamazon" rel="noopener noreferrer" target='_blank'>
+                                    <a href="https://github.com/CoreyRo/bamazon">
                                         <img className="card-img-top" src="../public/imgs/bam.gif" alt="instagram pic" />
                                     </a>
                                     <div className="card-body">
@@ -126,12 +126,12 @@ const Gallery = () => {
 
                             <div class="carousel-item">
                                 <div className="card mb-3" >
-                                    <a href="https://github.com/erikamtnz13/green-team" rel="noopener noreferrer" target='_blank'>
+                                    <a href="https://github.com/erikamtnz13/green-team">
                                         <img className="card-img-top" src="../public/imgs/dungeon.gif" alt="instagram pic" />
                                     </a>
                                     <div className="card-body">
                                         <span>
-                                            <a href="https://dungeon-crusade.herokuapp.com/" rel="noopener noreferrer" target='_blank'>
+                                            <a href="https://dungeon-crusade.herokuapp.com/">
                                                 <h5 className="card-title d-inline-block">Dungeon Crusade</h5>
                                             </a>
                                         </span>
@@ -142,7 +142,7 @@ const Gallery = () => {
 
                             <div class="carousel-item">
                                 <div className="card mb-3" >
-                                    <a href="https://scratch.mit.edu/projects/159408717/#player" rel="noopener noreferrer" target='_blank'>
+                                    <a href="https://scratch.mit.edu/projects/159408717/#player">
                                         <img className="card-img-top" src="../public/imgs/cvm.gif" alt="instagram pic" />
                                     </a>
                                     <div className="card-body">
