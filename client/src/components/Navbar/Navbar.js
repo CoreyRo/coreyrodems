@@ -52,7 +52,7 @@ const Navbar = () => {
                     </ul> 
                    
                     <ul className="navbar-nav nav-tabs list-group ml-auto" id="myNavBar">
-                    <div class="dropdown-divider"></div>
+                    <div className="dropdown-divider"></div>
                         <li className="nav-item">
                             <a className="nav-link soc-links-collapse" href="https://github.com/CoreyRo" rel="noopener noreferrer" target='_blank'>Github <span className="sr-only">(current)</span></a>
                         </li>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Router, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Contact from './components/Contact'
 import About from './components/About'
@@ -7,10 +7,14 @@ import Gallery from './components/Gallery'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import createBrowserHistory from 'history/createBrowserHistory'
 import './App.css'
 import injectTapEventPlugin from 'react-tap-event-plugin'
 injectTapEventPlugin()
 
+const history = createBrowserHistory()
+
+// Get the current location.
 
 class App extends Component {
 	constructor(props){
@@ -21,12 +25,28 @@ class App extends Component {
 	}
 	
   	render() {
+		const location = history.location
+		history.listen((location, action) => {
+			console.log(
+			  `The current URL is ${location.pathname}${location.search}${location.hash}`
+			)
+			console.log('location history', history)
+			console.log(`The last navigation action was ${action}`)
+		  })
+		
 		return (
-	  		<Router>
+			history.listen((location, action) => {
+			console.log(
+			  `The current URL is ${location.pathname}${location.search}${location.hash}`
+			)
+			console.log('location history', history)
+			console.log(`The last navigation action was ${action}`)
+		  })
+	  		<Router history={history}>
+			  
 				<div id='home'>	
 					<Navbar />
 					<Header />
-						
 					<Route exact path='/' component={Home} />
 					<Route exact path='/about' component={About} />
 					<Route exact path='/projects' component={Gallery} />

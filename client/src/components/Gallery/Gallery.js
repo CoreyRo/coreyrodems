@@ -27,7 +27,7 @@ const Gallery = () => {
                         </div>
                         <div className='' style={{position:'relative', paddingBottom:'56.25%',paddingTop:'25px', height:0}}>
                             <div style={{textAlign: 'center', margin: 'auto'}}>
-                                <iframe id='my-vid' allowFullScreen='allowFullScreen' src="https://www.youtube.com/embed/7MX4eNud6ZI?autoplay=0&loop=1&rel=0&showinfo=0&iv_load_policy=3" width="560" height="315" allowtransparency="true" style={{position:'absolute', top:0, left:0, width:'100%', height:'100%'}} frameborder="0">
+                                <iframe id='my-vid' title='my-vid' allowFullScreen='allowFullScreen' src="https://www.youtube.com/embed/7MX4eNud6ZI?autoplay=0&loop=1&rel=0&showinfo=0&iv_load_policy=3" width="560" height="315" allowTransparency="true" style={{position:'absolute', top:0, left:0, width:'100%', height:'100%'}} frameBorder="0">
                                 </iframe>
                             </div>
                         </div>
@@ -41,9 +41,9 @@ const Gallery = () => {
                         <span className='my-h-sub-b'>Fullstack Development</span>
                         <span className='my-h-sub-sm'>Web Desgin / Web Development</span> 
                     </div>
-                    <div id="carouselExampleIndicators" class="carousel slide" interval="5000" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <div id="carouselExampleIndicators" className="carousel slide" interval="5000" data-ride="carousel">
+                        <ol className="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
@@ -51,8 +51,8 @@ const Gallery = () => {
                             <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
                         </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active">
                                 <div className="card mb-3" >
                                     <a href="https://github.com/CoreyRo/gordonsbbq">
                                         <img className="card-img-top" src="../public/imgs/gbbq.png" alt="instagram pic" />
@@ -68,7 +68,7 @@ const Gallery = () => {
                                 </div>
                             </div>
 
-                            <div class="carousel-item">
+                            <div className="carousel-item">
                                 <div className="card mb-3" >
                                     <a href="https://github.com/CoreyRo/coreyrodems">
                                         <img className="card-img-top" src="../public/imgs/cro.png" alt="coreyrodems.com pic" />
@@ -84,7 +84,7 @@ const Gallery = () => {
                                 </div>
                             </div>
 
-                            <div class="carousel-item">
+                            <div className="carousel-item">
                                 <div className="card mb-3" >
                                     <a href="https://github.com/CoreyRo/LIRIbot">
                                         <img className="card-img-top" src="../public/imgs/liri.png" alt="instagram pic" />
@@ -96,7 +96,7 @@ const Gallery = () => {
                                 </div>
                             </div>
 
-                            <div class="carousel-item">
+                            <div className="carousel-item">
                                 <div className="card mb-3" >
                                     <a href="https://github.com/CoreyRo/green-team-lfp">
                                         <img className="card-img-top" src="../public/imgs/lfp.png" alt="instagram pic" />
@@ -112,7 +112,7 @@ const Gallery = () => {
                                 </div>
                             </div>
 
-                            <div class="carousel-item">
+                            <div className="carousel-item">
                                 <div className="card mb-3" >
                                     <a href="https://github.com/CoreyRo/bamazon">
                                         <img className="card-img-top" src="../public/imgs/bam.gif" alt="instagram pic" />
@@ -124,7 +124,7 @@ const Gallery = () => {
                                 </div>
                             </div>
 
-                            <div class="carousel-item">
+                            <div className="carousel-item">
                                 <div className="card mb-3" >
                                     <a href="https://github.com/erikamtnz13/green-team">
                                         <img className="card-img-top" src="../public/imgs/dungeon.gif" alt="instagram pic" />
@@ -140,7 +140,7 @@ const Gallery = () => {
                                 </div>
                             </div>
 
-                            <div class="carousel-item">
+                            <div className="carousel-item">
                                 <div className="card mb-3" >
                                     <a href="https://scratch.mit.edu/projects/159408717/#player">
                                         <img className="card-img-top" src="../public/imgs/cvm.gif" alt="instagram pic" />
