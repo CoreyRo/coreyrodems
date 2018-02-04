@@ -50,9 +50,28 @@ const Gallery = () => {
                             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
                         </ol>
                         <div className="carousel-inner">
-                            <div className="carousel-item active">
+
+                        <div className="carousel-item active">
+                                <div className="card mb-3" >
+                                    <a href="https://redivo-test-server.herokuapp.com/">
+                                        <img className="card-img-top" src="../public/imgs/rg.jpg" alt="instagram pic" />
+                                    </a>
+                                    <div className="card-body">
+                                        <span>
+                                            <a href="https://redivo-test-server.herokuapp.com/">
+                                                <h5 className="card-title d-inline-block">The Redivo Group Realty</h5>
+                                            </a>
+                                        </span>
+                                        <p className="card-text">WIP: The Redivo Group site is a real estate site that will list properties from an API. 
+                                        It is built with Reactjs.</p>  
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="carousel-item">
                                 <div className="card mb-3" >
                                     <a href="https://github.com/CoreyRo/gordonsbbq">
                                         <img className="card-img-top" src="../public/imgs/gbbq.png" alt="instagram pic" />
