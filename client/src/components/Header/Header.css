@@ -41,7 +41,7 @@
     z-index:3;
 }
 
-@media screen and (max-width: 767px)  {
+@media screen and (max-width: 768px)  {
     .brand-img-head{
         font-size: 28pt;
         top: 140px;
@@ -52,6 +52,31 @@
         font-size: 16pt;
         top: 190px;
         left: 0;
+    }
+
+}
+
+@media screen and (min-width: 768px)  {
+    .brand-img-head{
+        position: absolute;
+        font-size: 70pt;
+        color: #fff;
+        text-shadow: 2px 2px 2px #000;
+        top: 215px;
+        left: 0;
+        width: 100%;
+        z-index:3;
+    }
+    
+    .brand-img-sub{
+        position: absolute;
+        font-size: 28pt;
+        color: #fff;
+        text-shadow: 2px 2px 2px #000;
+        top: 350px;
+        left: 0;
+        width: 100%;
+        z-index:3;
     }
 
 }

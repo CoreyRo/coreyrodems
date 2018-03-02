@@ -1,45 +1,45 @@
-
-
-.card{
+#gallery .card{
     margin: 0px 10px 0px 10px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.747);
-    background-color: #0099ff;
+    background-color: #ffffff;
 }
 
-.carousel-indicators{
-    bottom: -30px;
+#gallery .carousel-indicators{
+    bottom: -50px;
 }
-.carousel-indicators li {
-    background-color: rgba(0, 0, 0, 0.5);
-    height: .48rem;
+#gallery .carousel-indicators li {
+    background-color: rgba(245, 245, 245, 0.5);
+    height: 1.5rem;
     border-radius: 8px;
+    cursor: pointer;
 }
 
-.carousel-indicators .active {
-    background-color: #0099ff;
+
+#gallery .carousel-indicators .active {
+    background-color: #ffffff;
 }
 
-.card-body{
-    border: 2px solid rgb(221, 221, 221);
+#gallery .card-body{
+    border: 1px solid rgb(175, 175, 175);
     margin: 0 4px 4px 4px;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
 }
 
-.card-text{
+#gallery .card-text{
     font-family: 'Cabin', sans-serif;
     color: #333;
 }
 
-.card-img-top{
+#gallery .card-img-top{
     padding: 4px;
     height: 275px;
 }
 
-.card-img-top:hover{
+#gallery .card-img-top:hover{
     border: 6px solid #fffb00;
     padding: 0px;
 }
-.card-title{
+#gallery .card-title{
     font-family: 'Prompt', sans-serif !important;
     font-weight: bold;
     color: #333;
@@ -66,8 +66,11 @@
 
 }
 .more-info{
-    margin-top: 30px;
-    padding-left: 10px;
+    margin: 50px auto;
+    padding: 15px 0 .5px 15px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.747);
+
 }
 .follow-me{
     margin: -25px 0 0px 20px;
@@ -82,27 +85,27 @@
 }
 
 .video-div{
-    margin-bottom: 50px;
-    background-color: #0099ff !important;
+    margin-bottom: 0px;
+    background-color: #FFFFFF !important;
     padding-top: 10px;
-    padding-bottom: 125px;
+    padding-bottom: 80px;
     width: 100%;
 }
 
 #my-vid{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.623);
-    border: 4px solid #FFF;
+    border: 4px solid #0099ff !important;;
     border-radius: 4px;
 }
 
 .gallery-div{
-    padding: 0 15px 10px !important;
-    margin: 0 -15px 75px -15px !important;
-    border-radius: 15px;
+    padding: 20px 0px 60px !important;
+    margin: 0 auto 0px auto !important;
+    background-color: #0099ff;
 }
 
 .h-container-sm-a{
-    border-left: 8px solid #ffffff !important;
+    border-left: 8px solid #0099ff !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
     padding-top: 0 !important;
@@ -115,8 +118,8 @@
   .my-h-sub-a{
     font-family: 'Prompt', sans-serif !important;
     font-size: 24pt;
-    border-bottom: 3px  #FFF;
-    color: #ffffff;
+    border-bottom: 3px  #0099ff;
+    color: #0099ff;
     margin-top: 25px;
     margin-bottom: 0px !important; 
     padding-left: 15px;
@@ -126,7 +129,7 @@
   .h-container-sm-b{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.589);
     font-family: 'Prompt', sans-serif !important;
-    border-left: 8px solid #0099ff !important;
+    border-left: 8px solid #ffffff !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
     padding-top: 0px !important;
@@ -138,7 +141,7 @@
   .my-h-sub-b{
     font-family: 'Prompt', sans-serif !important;
     font-size: 24pt;
-    color: #0099ff;
+    color: #ffffff;
     margin-top: 25px;
     margin-bottom: 0px !important; 
     padding-left: 15px;
@@ -165,29 +168,29 @@
         margin-top: 0px;    
     }
 
-    .card-text{
+    #gallery .card-text{
         font-size: 10pt;
     }
 
-    .card-title{
+    #gallery .card-title{
         font-size: 12pt;
     }
 
-    .card-img-top{
+    #gallery .card-img-top{
         padding: 4px;
         height: 175px !important;
     }
 
-    .card-body{
+    #gallery .card-body{
         padding: 10px !important;
         margin-bottom: 0 !important;
         height: 125px !important;
         overflow: hidden !important;
     } 
 
-    card{
+    #gallery .card{
         padding: 0px !important;
-        margin-bottom: 0px !important;\
+        margin-bottom: 0px !important;
         overflow: hidden !important;
 
     }

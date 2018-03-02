@@ -43,7 +43,7 @@ class Footer extends Component {
                                 <div className='col-4'>
                                 <div className='soc-media-div'>
                                 <a className="" href="https://github.com/CoreyRo" rel="noopener noreferrer" target='_blank'>
-                                <img className="soc-media-icon img-fluid" alt="github logo" src="../public/imgs/ghlogo.png" />
+                                <img className="soc-media-icon img-fluid" alt="github logo" src="../public/imgs/white-github.png" />
                                 </a>
                                 </div>
                                 <p className='follow-text'> See my projects on Github </p>

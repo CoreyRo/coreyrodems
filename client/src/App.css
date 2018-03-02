@@ -1,21 +1,29 @@
-.container-fluid {
-  width: 100%;
-  padding-right: 10%;
-  padding-left: 10%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 label {
   display: inline-block;
   margin-bottom: 2px !important;
 }
-
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+html{
+  overflow-x: hidden;
 }
+
+body{
+  width: 100% !important;
+  height: 100% !important;
+  font-family: 'Russo One', sans-serif;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 @media screen and (max-width: 767px)  {
 
@@ -29,7 +37,6 @@ label {
     padding-left: 2%;
     margin-right: auto;
     margin-left: auto;
-    overflow-x: hidden !important;
   }
 
   .container{
@@ -60,22 +67,5 @@ label {
 }
 
 @media screen and (max-width: 310px)  {
-  body,html{
-    padding: 0 !important;
-    width: 100% !important;
-    padding: 0 !important;
-    width: 100% !important;
-    padding-right:0 !important;
-    padding-left: 0 !important;
-    margin-right: 0 !important;
-    margin-left: 0 !important;
-  }
 
-  .container{
-    width: 100%;
-    padding-right:0 !important;
-    padding-left: 0 !important;
-    margin-right: 0 !important;
-    margin-left: 0 !important;
-  }
 }

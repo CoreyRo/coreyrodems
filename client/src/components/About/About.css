@@ -9,6 +9,13 @@
     margin-bottom: 5px !important;
 } 
 
+.about-list li{
+    font-size: 18pt;
+}
+
+
+
+
 .about-pic-div-2{
     display: none !important;
 } 

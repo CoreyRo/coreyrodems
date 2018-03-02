@@ -1,0 +1,63 @@
+.intro .card{
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 2px 2px 2px #00000098;
+    background-color: transparent !important;
+    border-radius: unset !important;
+    height: 19rem;
+}
+
+.intro .card-title{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro .card-body{
+    margin: 0 auto;
+    text-align: center;
+    background-color: transparent !important;
+    border: unset !important;
+}
+
+.intro .card-img-top{
+    max-width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: transparent !important;
+}
+
+.intro .card-text{
+    margin: 0 auto;
+    text-align: center;
+    border: unset !important;
+}
+
+.intro-text-1{
+    color: rgb(46, 46, 46);
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.747);
+    font-size: 26pt;
+}
+
+.intro-text-2{
+    color: #0099ff;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.514);
+    font-size: 20pt;
+}
+
+.intro-text{
+    color: rgb(46, 46, 46);
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px rgb(184, 184, 184);
+    font-size: 14pt;
+}
+
+.intro-cards{
+    margin: 50px auto auto auto
+}
+
+@media screen and (min-width: 768px)  {
+
+}

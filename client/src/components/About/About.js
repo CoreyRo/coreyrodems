@@ -14,13 +14,42 @@ class About extends Component {
 
         return(
             <div>
-                <div className='hobbies-div'>
+                <div className='hobbies-div mx-auto text-center'>
                     <div className='container text-center mx-auto'>
-                        <h3 className='hobby-h'>Gamer - Tech Enthusiast - BBQ Master</h3>
                         <img className="img-fluid hobby-img mx-auto" src="../public/imgs/hobbies.png" alt="corey-rodems" />
-                        <h3 className='hobby-h'>Video Editor - Web Designer - KC Chiefs Fan</h3>
                     </div>
-
+                    <div className='row'>
+                    <div className='col-sm-4'>
+                        <ul className='about-list'>
+                            <li>
+                                <i class="fas fa-gamepad"></i> Gamer
+                            </li>
+                            <li>
+                                <i class="fas fa-video"></i> Video Editor
+                            </li>
+                        </ul>
+                    </div>
+                    <div className='col-sm-4'>
+                        <ul className='about-list'>
+                            <li>
+                            <i class="fas fa-desktop"></i> Tech Enthusiast
+                            </li>
+                            <li>
+                            <i class="fas fa-code"></i> Web Developer
+                            </li>
+                        </ul>
+                    </div>
+                    <div className='col-sm-4'>
+                        <ul className='about-list'>
+                            <li>
+                            <img src="../public/imgs/bbqic.png" className='img-fluid' alt="Smiley face" height="24" width="24"/> BBQ Master
+                            </li>
+                            <li>
+                            <i class="fas fa-football-ball"></i> KC Chiefs Fan
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
                 </div>
 

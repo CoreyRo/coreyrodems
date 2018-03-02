@@ -1,0 +1,73 @@
+#skills{
+    margin: auto auto 80px auto;
+}
+
+.wdskills-div{
+    color: #FFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0099ff;
+}
+
+#skills .skill-img{
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#skills .card{
+    background-color: unset;
+    border: unset;
+}
+
+#skills .card-title{
+}
+
+#skills .card-img-top{
+
+}
+
+#skills .card-body{
+    
+}
+
+#skills .card-text{
+    
+}
+
+#skills .slick-text{
+    
+}
+
+#skills .slick-slide{
+    opacity: .3;
+    margin: 1.1% 0 0 0;
+    vertical-align: middle !important;
+}
+
+#skills .slick-slide img{
+    height: 150px;
+    width: auto;
+
+} 
+
+
+#skills .slick-slide.slick-center{
+    opacity: 1;
+    margin: 0 0 0 0;
+    vertical-align: middle !important;
+}
+
+#skills .slick-active.slick-center img{
+    min-height: 400px;
+    width: auto;
+}
+
+
+@media screen and (max-width: 768px)  {
+    #skills .slick-slide{
+        opacity: unset;
+        margin: unset;
+        vertical-align: middle !important;
+    }
+}

@@ -1,19 +1,35 @@
 <!doctype html>
-<html lang="en">
-  <head>
-		
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" lang="en">
+<head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="theme-color" content="#000000">
-	
-	<link rel="stylesheet" type="text/css" href="/main.css">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<title>CoreyRodems.com</title>
+	<meta property="og:title" content="CoreyRodems.com" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://www.coreyrodems.com" />
+	<meta property="og:image" content="https://imgur.com/a/Ahr1O" />
+	<meta property="og:image:secure_url" content="https://imgur.com/a/Ahr1O" />
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:alt" content="Corey Rodems" />
+	<meta property="og:site_name" content="CoreyRodems.com" />
+	<meta property="og:description" content="Portfolio page and social media hub for Corey Rodems, junior fullstack developer."/>
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/reset.css">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<!--
 	  manifest.json provides metadata used when your web app is added to the
 	  homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
 	-->
+	<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link rel="apple-touch-icon" sizes="57x57" href="../public/imgs/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="../public/imgs/favicon/apple-icon-60x60.png">
@@ -24,29 +40,33 @@
 	<link rel="apple-touch-icon" sizes="144x144" href="../public/imgs/favicon/apple-icon-144x144.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="../public/imgs/favicon/apple-icon-152x152.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="../public/imgs/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="../public/imgs/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../public/imgs/favicon/android-icon-192x192.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="../public/imgs/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="../public/imgs/favicon/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="../public/imgs/favicon/favicon-16x16.png">
 	<link href="https://fonts.googleapis.com/css?family=Bungee|Cabin|Prompt|Russo+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/main.css">
 
-	<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-	<script src='https://www.google.com/recaptcha/api.js'></script>
+	
+
 
 	<title>Corey Rodems</title>
-  </head>
-  <body data-spy="scroll" data-target="#myNavBar" data-offset="10">
+</head>
+
+<body data-spy="scroll" data-target="#myNavBar" data-offset="10">
 	<noscript>
-	  You need to enable JavaScript to run this app.
+		You need to enable JavaScript to run this app.
 	</noscript>
 	<div id="root"></div>
-	 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-	 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/cb59ab194b74b46ff2455060e/c02d58cdeb481f601f7dace4e.js");</script>
-  </body>
+
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+</body>
+
 </html>

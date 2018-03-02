@@ -20,14 +20,7 @@
     margin-top:30px;
 }
 
-.wdskills-div{
-    color: #FFF;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #0099ff;
-}
+
 
 .wd-text{
     color: rgb(255, 255, 255);
@@ -62,26 +55,7 @@
     overflow-x: hidden !important;
 }
 
-.intro-text-1{
-    color: rgb(46, 46, 46);
-    margin-bottom: 15px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.747);
-    font-size: 20pt;
-}
 
-.intro-text-2{
-    color: #0099ff;
-    margin-bottom: 15px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.514);
-    font-size: 20pt;
-}
-
-.intro-text{
-    color: rgb(46, 46, 46);
-    margin-bottom: 10px;
-    text-shadow: 1px 1px 1px rgb(184, 184, 184);
-    font-size: 14pt;
-}
 
 .contactme-div{
     background-color: #FFF;
