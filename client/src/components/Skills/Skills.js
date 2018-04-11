@@ -3,8 +3,8 @@ import Swiper from '../Swiper'
 import './Skills.css'
 
 const Skills = (props) => {
-
     return (
+
         <div className='text-center wdskills-div'>
             <div className='container-fluid'>
                 <div className='row mx-auto text-center'>
@@ -99,57 +99,81 @@ const Skills = (props) => {
                     </div>
                 </div>
                 <div className='container'>
-                <hr/>
-                <h2 className=''>Competent in... </h2>
-                <br/>
-                <div className='row'>
-                    <div className='col-sm-4'>
-                        <ul>
-                            <li>
-                                <i class="fab fa-html5"></i> HTML5
-                            </li>
-                            <li>
-                            <i class="fab fa-js"></i> ES6
-                            </li>
-                            <li>
-                                <i class="fab fa-css3-alt"></i> CSS3
-                            </li>
-                        </ul>
-                    </div>
-                    <div className='col-sm-4'>
-                        <ul>
-                            <li>
-                                <i class="fab fa-node-js"></i> Node.js &amp; Express
-                            </li>
-                            <li>
-                                <img src="../public/imgs/mysql.png" className='img-fluid' alt="Smiley face" height="24" width="24"/> MySql &amp; Sequelize
-                            </li>
+                    <hr/>
+                    <h2 className=''>Competent in...
+                    </h2>
+                    <br/>
+                    <div className='row'>
+                        <div className='col-sm-4'>
+                            <ul>
+                                <li>
+                                    <i className="fab fa-html5"></i>
+                                    HTML5
+                                </li>
+                                <li>
+                                    <i className="fab fa-js"></i>
+                                    ES6
+                                </li>
+                                <li>
+                                    <i className="fab fa-css3-alt"></i>
+                                    CSS3
+                                </li>
+                            </ul>
+                        </div>
+                        <div className='col-sm-4'>
+                            <ul>
+                                <li>
+                                    <i className="fab fa-node-js"></i>
+                                    Node.js &amp; Express
+                                </li>
+                                <li>
+                                    <img
+                                        src="../public/imgs/mysql.png"
+                                        className='img-fluid'
+                                        alt="Smiley face"
+                                        height="24"
+                                        width="24"/>
+                                    MySql &amp; Sequelize
+                                </li>
 
-                            <li>
-                            <img src="../public/imgs/mongod.png" className='img-fluid' alt="Smiley face" height="18" width="18"/> MongoDB &amp; Mongoose
-                            </li>
-                        </ul>
+                                <li>
+                                    <img
+                                        src="../public/imgs/mongod.png"
+                                        className='img-fluid'
+                                        alt="Smiley face"
+                                        height="18"
+                                        width="18"/>
+                                    MongoDB &amp; Mongoose
+                                </li>
+                            </ul>
+                        </div>
+                        <div className='col-sm-4'>
+                            <ul>
+                                <li>
+                                    <i className="fab fa-react"></i>
+                                    React.js
+                                </li>
+                                <li>
+                                    <img
+                                        src="../public/imgs/jquery.png"
+                                        className='img-fluid'
+                                        alt="Smiley face"
+                                        height="24"
+                                        width="24"/>
+                                    jQuery
+                                </li>
+                                <li>
+                                    <i className="fab fa-wordpress"></i>
+                                    WordPress
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div className='col-sm-4'>
-                        <ul>
-                            <li>
-                                <i class="fab fa-react"></i> React.js
-                            </li>
-                            <li>
-                                <img src="../public/imgs/jquery.png" className='img-fluid' alt="Smiley face" height="24" width="24"/> jQuery
-                            </li>
-                            <li>
-                                <i class="fab fa-wordpress"></i> WordPress
-                            </li>
-                        </ul>
-                    </div>
+
+                    ...and other full stack frameworks and languages.
+                    <hr/>
                 </div>
 
-                ...and other full stack frameworks and
-                        languages.
-                        <hr/>
-                </div>
-                
             </div>
         </div>
 

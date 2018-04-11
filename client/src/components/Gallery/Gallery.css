@@ -178,21 +178,19 @@
 
     #gallery .card-img-top{
         padding: 4px;
-        height: 175px !important;
+
     }
 
     #gallery .card-body{
         padding: 10px !important;
         margin-bottom: 0 !important;
-        height: 125px !important;
+
         overflow: hidden !important;
     } 
 
     #gallery .card{
         padding: 0px !important;
         margin-bottom: 0px !important;
-        overflow: hidden !important;
-
     }
 
     .pic-div{

@@ -8,13 +8,14 @@ class Home extends Component {
     state = {}
 
     render() {
+
         return (
             <div>
                 <Row>
                     <Intro/>
                 </Row>
-                 <div className='wdskills-div'>
-                    <Skills/>
+                <div className='wdskills-div'>
+                    <Skills data="World"/>
                 </div>
                 <div className='contactme-div'>
                     <div className='container text-center mx-auto'>
